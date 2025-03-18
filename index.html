@@ -44,5 +44,27 @@
             For other social medias that you want to boost that is not there, DM me on my facebook account or page because I might have it! Your content deserves to be seen! Don’t let the algorithm hold you back—DM now and let’s start boosting!  
         </p>
     </section> 
+
+        <button class="contact-btn" onclick="togglePopup()">📩</button>
+
+    <div id="contactPopup" class="contact-popup">
+        <span class="close-btn" onclick="togglePopup()">✖</span>
+        <h3>Contact Us</h3>
+        <p>📧 Email: adelheidwinzenried@gmail.com</p>
+        <p>📷 Instagram: @ad.heid09</p>
+        <p>📘 Facebook: Adelheid Winzenried</p>
+        <p>📞 Phone number: 09187902336 TNT/Smart</p>
+    </div>
+
+    <script>
+        function togglePopup() {
+            let popup = document.getElementById("contactPopup");
+            if (popup.style.display === "block") {
+                popup.style.display = "none";
+            } else {
+                popup.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
