@@ -68,7 +68,7 @@ color: white;
 }
 
 .feedback-section, .feedback-form {
-    background: white;
+    background: rgba(255, 182, 193, 0.8);
     padding: 20px;
     margin: 20px auto;
     width: 80%;
